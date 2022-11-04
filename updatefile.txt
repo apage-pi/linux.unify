@@ -8,3 +8,4 @@ LinuxUnifyLogoLg.png
 /usr/share/plymouth/themes/spinner/watermark.png
 LinuxUnifyLogoLg.png
 /usr/share/plymouth/themes/ubuntu-logo.png
+[End]
