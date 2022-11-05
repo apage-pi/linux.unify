@@ -1,6 +1,6 @@
 #/bin/bash
-file = /luupdate/22.10.1.txt
-if [ -f "$file" ]; then
+VER=/luupdate/22.10.1.txt
+if [ -f "$VER" ]; then
   echo "System already version 22.10.1. Skipping Update."
 else
   mkdir /luupdate
