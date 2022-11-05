@@ -10,6 +10,7 @@ else
   cp LinuxUnifyLogoSm.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png
   cp LinuxUnifyLogoLg.png /usr/share/plymouth/themes/spinner/watermark.png
   cp LinuxUnifyLogoLg.png /usr/share/plymouth/ubuntu-logo.png
-  touch /luupdate/22.10.1.txt
+  touch /lupdate/22.10.1.txt
+  rm -f LinuxUnifyLogoLg.png LinuxUnifyLogoSm.png
   echo "Update Complete. System now version 22.10.1."
 fi
