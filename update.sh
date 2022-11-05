@@ -1,9 +1,9 @@
 #/bin/bash
-VER=/luupdate/22.10.1.txt
+VER=/lupdate/22.10.1.txt
 if [ -f "$VER" ]; then
   echo "System already version 22.10.1. Skipping Update."
 else
-  mkdir /luupdate
+  mkdir /lupdate
   apt install gcc make
   wget https://raw.githubusercontent.com/apage-pi/linux.unify/main/LinuxUnifyLogoLg.png
   wget https://raw.githubusercontent.com/apage-pi/linux.unify/main/LinuxUnifyLogoSm.png
