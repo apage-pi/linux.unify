@@ -1,6 +1,7 @@
 #/bin/bash
 VER=/lupdate/22.10.1.txt
 if [ -f "$VER" ]; then
+  wget https://raw.githubusercontent.com/apage-pi/linux.unify/luupdate.py
   echo "System already version 22.10.1. Skipping Update."
 else
   mkdir /lupdate
